@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+body nav .nav__navigationWall, body header .kithen_picture .see_our_secrets, body header .yellow_border .kazan_picture .vegan_vegetarian, body header .meat_picture .for_meat_lovers {
+  opacity: 0.4;
+  margin: 0 45% 0 5%;
+  width: 43%;
+  height: 18%;
+  text-align: center;
+  background: radial-gradient(circle at 0 0, transparent 30px, white 0), radial-gradient(circle at 100% 0, transparent 30px, white 0), radial-gradient(circle at 100% 100%, transparent 30px, white 0), radial-gradient(circle at 0 100%, transparent 30px, white 0);
+  background-position: top left, top right, bottom right, bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  font-size: 150%;
+  font-family: Ubuntu;
+  color: #2b2b2b;
+}
+body nav .nav__navigationWall:hover, body header .kithen_picture .see_our_secrets:hover, body header .yellow_border .kazan_picture .vegan_vegetarian:hover, body header .meat_picture .for_meat_lovers:hover {
+  opacity: 1;
+  margin-bottom: 10%;
+  transition: 1s;
+}
+body nav .nav__navigationWall:not(:hover), body header .kithen_picture .see_our_secrets:not(:hover), body header .yellow_border .kazan_picture .vegan_vegetarian:not(:hover), body header .meat_picture .for_meat_lovers:not(:hover) {
+  transition: 1s;
+}
+
+body header .kithen_picture .see_our_secrets .bottom_full_menu, body header .yellow_border .kazan_picture .vegan_vegetarian .bottom_full_menu, body header .meat_picture .for_meat_lovers .bottom_full_menu {
+  background-color: #f1ac11;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15%;
+  margin: auto;
+  border-radius: 10%;
+}
+
+body header .kithen_picture .see_our_secrets .bottom_full_menu a, body header .yellow_border .kazan_picture .vegan_vegetarian .bottom_full_menu a, body header .meat_picture .for_meat_lovers .bottom_full_menu a {
+  text-decoration: none;
+  color: #2b2b2b;
+  display: block;
+  font-size: 60%;
+}
+
+body header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 1100px;
+}
+body header .meat_picture {
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  background-image: url("/img/Rebra.png");
+  background-size: 120%;
+  background-position: top left;
+}
+body header .yellow_border {
+  width: 60%;
+  height: auto;
+  margin-left: -25%;
+  margin-right: -25%;
+  background-color: #f1ac11;
+  -webkit-clip-path: polygon(35% 0, 100% 0, 60% 142%, 0 110%);
+          clip-path: polygon(35% 0, 100% 0, 60% 142%, 0 110%);
+}
+body header .yellow_border .kazan_picture {
+  display: flex;
+  width: 99%;
+  height: 100%;
+  margin-left: 0.65%;
+  background-image: url(/img/Kazan2.png);
+  background-position: 60% 100%;
+  background-size: 160% 100%;
+  -webkit-clip-path: polygon(35% 0, 100% 0, 60% 140%, 0 110%);
+          clip-path: polygon(35% 0, 100% 0, 60% 140%, 0 110%);
+  justify-content: center;
+  align-items: center;
+}
+body header .yellow_border .kazan_picture .vegan_vegetarian {
+  width: 32%;
+  margin: 0 3% 0 5%;
+}
+body header .kithen_picture {
+  width: 45%;
+  height: auto;
+  background-image: url(/img/Kithen.png);
+  background-position: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body header .kithen_picture .see_our_secrets {
+  margin: 0 0 0 40%;
+}
+body main {
+  display: flex;
+  margin: -1% auto;
+  flex-wrap: wrap;
+  width: 60%;
+}
+body main .main__daily_menu {
+  margin: auto;
+  width: 75%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+body main .main__daily_menu h1 {
+  margin-top: 10%;
+  margin-bottom: 0;
+  font-style: italic;
+  color: #f1ac11;
+  font-family: Ubuntu;
+  font-weight: 300;
+  font-size: 42px;
+}
+body main .main__daily_menu .main__menu .main__showVegan ul li {
+  cursor: pointer;
+  font-size: 14px;
+  font-style: italic;
+  text-align: left;
+}
+body main .main__daily_menu .main__menu .main__showVegan ul li:hover {
+  color: #f1ac11;
+}
+body main .main__daily_menu .main__menu .main__dishesMenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+body main .main__daily_menu .main__menu .main__dishesMenu a {
+  text-decoration: none;
+  color: black;
+}
+body main .main__daily_menu .main__menu .main__dishesMenu div {
+  display: flex;
+  width: 46%;
+  height: 100px;
+  margin: 2%;
+}
+body main .main__daily_menu .main__menu .main__dishesMenu div img {
+  margin: auto 0;
+  align-self: flex-start;
+  width: 20%;
+  height: 80%;
+}
+body main .main__daily_menu .main__menu .main__dishesMenu div .menu__dishesTextAfterImg {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 0 0 5%;
+}
+body main .main__daily_menu .main__menu .main__dishesMenu div .menu__dishesTextAfterImg h2 {
+  text-transform: uppercase;
+  margin-top: 10%;
+  align-self: flex-start;
+  width: 85%;
+  font-size: 18px;
+  font-family: Ubuntu;
+  text-align: left;
+  font-weight: 400;
+}
+body main .main__daily_menu .main__menu .main__dishesMenu div .menu__dishesTextAfterImg .menu__price {
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 10%;
+  width: 15%;
+  height: 25%;
+  background: radial-gradient(circle at 0 0, transparent 7px, #f1ac11 0), radial-gradient(circle at 100% 0, transparent 7px, #f1ac11 0), radial-gradient(circle at 100% 100%, transparent 7px, #f1ac11 0), radial-gradient(circle at 0 100%, transparent 7px, #f1ac11 0);
+  background-position: top left, top right, bottom right, bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  font-family: Ubuntu;
+}
+body main .main__daily_menu .main__menu .main__dishesMenu div .menu__dishesTextAfterImg .menu__alergensText {
+  margin: -2% 0 10% 0;
+  color: #bcbcbc;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: grey;
+  font-style: italic;
+  font-family: Ubuntu;
+}
+body main .main__daily_menu .main__menu .main__dishesMenu div .menu__dishesTextAfterImg .menu__alergensNumber {
+  text-transform: uppercase;
+  margin: -2% 0 10% 0;
+  color: #bcbcbc;
+  font-style: italic;
+  font-size: 13px;
+  font-family: U3untu;
+}
+body main .main__random_dishes {
+  margin: 8% auto 0 auto;
+  width: 75%;
+  display: flex;
+}
+body main .main__random_dishes .main__picture {
+  width: 449px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/img/pasta.png);
+}
+body main .main__random_dishes .main__picture .border {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 0 0, white 50px, transparent 0, transparent 0), radial-gradient(circle at 100% 0, transparent 30px, transparent 0), radial-gradient(circle at 100% 100%, transparent 30px, transparent 0), radial-gradient(circle at 0 100%, white 50px, transparent 0);
+  background-position: top left, top right, bottom right, bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+body main .main__random_dishes .main__text {
+  position: relative;
+  border-top-color: aqua;
+  background: radial-gradient(circle at 0 0, white 50px, transparent 0, transparent 0), radial-gradient(circle at 100% 0, white 50px, #CDCAC1 53px, transparent 0), radial-gradient(circle at 100% 100%, white 50px, #CDCAC1 53px, transparent 0), radial-gradient(circle at 0 100%, white 50px, transparent 0);
+  background-position: top left, top right, bottom right, bottom left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  width: 449px;
+}
+body main .main__random_dishes .main__text .menu__border-top {
+  margin-bottom: 5%;
+  width: 88%;
+  height: 1px;
+  top: 100%;
+  background-color: #CDCAC1;
+}
+body main .main__random_dishes .main__text .menu__border-bottom {
+  width: 88%;
+  background-color: #CDCAC1;
+  height: 1px;
+  bottom: 50%;
+}
+body main .main__random_dishes .main__text .menu__border-right {
+  position: absolute;
+  width: 1px;
+  height: 62%;
+  left: 100%;
+  top: 19%;
+  background-color: #CDCAC1;
+}
+body main .main__random_dishes .main__text a {
+  margin: 5% 0 5% 5%;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: U3untu;
+  text-decoration: none;
+  color: #f1ac11;
+  font-size: 12px;
+}
+body main .main__random_dishes .main__text h2 {
+  margin: 5% 0 5% 5%;
+  font-style: italic;
+  font-family: U3untu;
+  text-transform: uppercase;
+  font-size: 22px;
+  width: 70%;
+  font-weight: 500;
+}
+body main .main__random_dishes .main__text p {
+  margin: 0 0 5% 5%;
+  font-family: U3untu;
+  width: 80%;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+body main .main__random_dishes .main__text input {
+  margin: 0 0 5% 5%;
+  font-size: 12px;
+  font-family: U3untu;
+  background-color: #f1ac11;
+  border: none;
+  width: 25%;
+  line-height: 200%;
+  box-shadow: 2px 2px;
+  cursor: pointer;
+}
+body main .main__next_offer {
+  background: radial-gradient(farthest-corner at 140% 50%, #f1ac11 1%, white 80%);
+  background-color: white;
+  line-height: 12px;
+  margin: 8% 5% 0 0;
+  border: none;
+  font-family: U3untu;
+  cursor: pointer;
+  font-style: italic;
+  font-size: 24px;
+}
+body main .main__next_offer:hover {
+  color: #f1ac11;
+}
+body main .main__next_offer:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+body nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  height: 470px;
+  background-image: url(/img/findUs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 60%;
+}
+body nav .nav__navigationWall {
+  opacity: 1;
+  margin: auto 0;
+  width: 566px;
+  height: 331px;
+  display: flex;
+  flex-direction: column;
+}
+body nav .nav__navigationWall h2 {
+  margin-top: 10%;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-family: U3untu;
+  font-style: italic;
+}
+body nav .nav__navigationWall .nav__middle {
+  margin-left: 12%;
+  margin-top: 5%;
+  display: flex;
+}
+body nav .nav__navigationWall .nav__middle p {
+  font-family: U3untu;
+  color: #f1ac11;
+  font-size: 22px;
+  margin-top: 3%;
+}
+body nav .nav__navigationWall .nav__middle address {
+  font-family: U3untu;
+  font-size: 22px;
+  margin: -1% 0 0 12%;
+}
+body nav .nav__navigationWall a {
+  font-style: italic;
+  background-color: #f1ac11;
+  text-decoration: none;
+  color: black;
+  font-family: U3untu;
+  box-shadow: 2px 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 1%;
+  margin-top: 50px;
+}
+body nav .nav__navigationWall:hover {
+  margin: auto;
+}
+body footer {
+  font-family: U3untu;
+  font-style: italic;
+  justify-content: space-between;
+  display: flex;
+  background-image: url(/img/footer.png);
+  height: 275px;
+}
+body footer .footer_links {
+  text-align: left;
+  margin: auto 0 auto 23%;
+  display: flex;
+}
+body footer .footer_links .footer__info {
+  text-transform: uppercase;
+  color: white;
+}
+body footer .footer_links .footer__info li {
+  margin-left: -35%;
+  color: darkgrey;
+  list-style-type: none;
+}
+body footer .footer_links .footer__info h2 {
+  font-weight: 300;
+  font-size: 22px;
+}
+body footer .footer__sing_up {
+  margin: auto 23% 6% 0;
+  font-family: U3untu;
+  font-style: italic;
+}
+body footer .footer__sing_up h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 22px;
+  color: white;
+}
+body footer .footer__sing_up .footer_email {
+  line-height: 200%;
+  opacity: 0.5;
+  color: white;
+}
+body footer .footer__sing_up .footer_emailUpload {
+  padding: 2%;
+  background-color: #f1ac11;
+  box-shadow: 2px 2px;
+  font-style: italic;
+}
